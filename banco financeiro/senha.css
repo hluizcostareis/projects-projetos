@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    background-image: url(./img/859b34ec-a208-45b3-ab28-bd01950e046e.jpg);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+
+}
+.main{
+    width: 520px;
+    border-radius: 5px;
+    color: white;
+    padding: 30px 40px;
+}
+.main h1{
+ text-align: center;
+}
+.email{
+    margin: 10px;
+    width: 100%;
+}
+.email input{
+    background-color: transparent;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 35px;
+    padding: 10px;
+    color: white;
+}
+.email input::placeholder{
+    color: white;
+}
+.botoes{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+}
+.voltar{
+    margin: 10px;
+    width: 100%;
+    
+    
+}
+.voltar button{
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    
+}
+.trocar{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    margin: 10px;
+    
+    
+}
+.trocar button{
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+.voltar a{
+    color: rgb(0, 0, 0);
+    
+}

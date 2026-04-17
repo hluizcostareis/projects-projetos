@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/859b34ec-a208-45b3-ab28-bd01950e046e.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 520px;
+    color: white;
+    padding: 30px 40px;
+}
+.container h1{
+    font-size: 50px;
+    text-align: center;
+}
+.login{
+    margin: 10px;
+    width: 100%;
+    
+}
+
+.login input{
+    position: relative;
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+    border: 1px white solid;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+}
+.login input::placeholder{
+    color: white;
+}
+
+.entrar{
+    margin: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.opçoes{
+    display: flex;
+    justify-content: center;
+}
+.esqueci{
+    margin-right: 5px;
+}
+.nova{
+    margin-left: 5px;
+}
+
+.esqueci a{
+    color: white;
+}
+.nova a{
+    color: white;
+}
+.lembrar{
+    margin: 10px;
+}
+#msg{
+    
+    text-align: center;
+}
