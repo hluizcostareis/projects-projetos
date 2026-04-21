@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-image: url(./img/859b34ec-a208-45b3-ab28-bd01950e046e.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main h1{
+    margin-bottom: 10px;
+}
+
+.main{
+    
+    width: 520px;
+    background-color: rgb(156, 156, 156);
+    border-radius: 30px;
+    padding: 30px 40px;
+}
+#insert{
+    
+    width: 100%;
+    height: 30px;
+    border-radius: 30px;
+    
+}
+
+.main input::placeholder{
+    
+    padding-left:10px;
+    color: black;
+}
+
+.buttons{
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    
+}
+.proximo{
+    display: flex;
+    width: 50%;
+    justify-content: end;
+
+}
+.proximo button{
+    height: 30px;
+    border-radius: 30px;
+    width: 80px;
+    margin-right: 10px;
+}
+.voltar{
+    width: 50%;
+}
+.voltar button{
+    height: 30px;
+    margin-left: 10px;
+    width: 80px;
+    border-radius: 30px;
+}
